@@ -295,11 +295,13 @@ button {
 
 .logo {
      padding-top: 12px;
+     
 }
 
 .logo img{
-    height:300px ;
+    height:250px ;
     margin-left: 15%;
+    margin-bottom: 0px;
 }
 
 
@@ -586,14 +588,11 @@ ul.conat_info li a:hover {
 }
 
 .blu_colo i {
-     background-color: #DD8023
+     background-color: #222b3c
      
 }
-.service_box:first-child{
-    margin-left:0px;
-}
-.blu_colo {
-    margin-left:50px;
+.service_box:nth-child(3) i{ 
+    background-color: #DD8023
 }
 
 .yell_colo i {
@@ -1096,4 +1095,13 @@ ul.location_icon li a:hover {
 
 
 /** end footer **/
+
+@media (max-width: 480px) {
+    .logo {
+        
+    }
+
+	
+}
+
 
